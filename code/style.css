@@ -197,3 +197,15 @@ h3   {
 .img:hover .primary {
     display: none;
 }
+
+.red_heart  {
+    display: none;
+}
+
+.heart:hover  .red_heart  {
+    display: flex;
+}
+
+.heart:hover  .black_heart{
+    display: none;
+}
