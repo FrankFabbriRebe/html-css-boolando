@@ -16,6 +16,8 @@ header  {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    z-index: 10;
 }
 
 nav {
@@ -75,6 +77,7 @@ main    {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 70px;
 }
 
 .row    {
