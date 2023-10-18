@@ -66,3 +66,80 @@ nav {
 .logo img   {
     height: 50px;
 }
+
+
+/* main */
+
+main    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row    {
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.column {
+    width: calc(100% / 3);
+}
+
+.column img {
+    width: 100%;
+}
+
+.brand  {
+    color: grey;
+}
+
+.name_product   {
+    font-weight: bold;
+}
+
+.first  {
+    color: red;
+    margin-right: 5px;
+}
+
+.second {
+    text-decoration:line-through;
+}
+
+.label  {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+}
+
+.img    {
+    position: relative;
+}
+
+.discount   {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.sustanabilty   {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.heart  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    background-color: white;
+    right: 0px;
+    top: 10px;
+}
