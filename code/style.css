@@ -182,3 +182,18 @@ h3   {
 .icons_social i  {
     margin-right: 5px;
 }
+
+
+/* hover option */
+
+.secondary  {
+    display: none;
+}
+
+.img:hover  .secondary  {
+    display: flex;
+}
+
+.img:hover .primary {
+    display: none;
+}
